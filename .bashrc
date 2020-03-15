@@ -115,13 +115,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
+#
 # Scripts
-
-#Hello World
-function hello() {
-   echo "Hello World"
-}
+#
 
 # ASCEND Code
 function ascend-drive() {
@@ -140,4 +136,9 @@ function ascend-drive() {
     else
         echo "error: No arg"
    fi
+}
+
+# Move then List
+function cdls() {
+    cd "$@" && ls
 }
