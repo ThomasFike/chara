@@ -142,3 +142,21 @@ function ascend-drive() {
 function cdls() {
     cd "$@" && ls
 }
+
+#common ssh
+function common-ssh() {
+    echo "Welcome to common-ssh!" ; echo "What Server you would you like to connect to:"
+    echo "1) PRCLAB1" ; echo "2) Beaglebone.local"
+    echo -ne "Enter Number: "
+    read -n 1 ans
+    case $ans in
+	1)
+	    echo -e "\nLogin into PRCLAB1"
+	    ssh fiket1@prclab1.erau.edu
+	    ;;
+	2)
+	    echo -e "\nLogin into beaglebone.local"
+	    ssh debian@beaglebone.local
+	    ;;
+    esac
+}
