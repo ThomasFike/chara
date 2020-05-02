@@ -1,10 +1,10 @@
 #!/usr/bin/env xdg-open
  
 [Desktop Entry]
-Version=9.6
+Version=9.6.1
 Type=Application
 Terminal=True
 Name=Eagle
-Exec=/opt/eagle-9.6.0/eagle.sh
-Icon=/opt/eagle-9.6.0/icon.jpg
+Exec=/opt/eagle-9.6.1/eagle.sh
+Icon=/opt/eagle-9.6.1/icon.jpg
 Comment=Eagle CAD
