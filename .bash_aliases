@@ -5,3 +5,5 @@ alias c='clear'
 # https://github.com/nibalizer/bash-tricks
 alias sl=ls
 alias mdkir=mkdir
+
+alias gcb='git branch --show-current' 
