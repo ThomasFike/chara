@@ -8,6 +8,6 @@ then
 	echo "Moving Files"
 	cp .bashrc .bash_aliases ~/
 	echo "Setting Sources"
-	source ~/.bashrc
+	echo $(source ~/.bashrc)
 	echo "Complete"
 fi
