@@ -7,3 +7,6 @@ alias sl=ls
 alias mdkir=mkdir
 
 alias gcb='git branch --show-current' 
+
+# For work
+alias git-sub-init='git submodule update --init --recursive'
